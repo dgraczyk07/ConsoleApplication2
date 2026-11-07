@@ -3,7 +3,7 @@
  using namespace std;
 
  int main()
- {   //zad. 1.1
+ {   /*zad. 1.1
      for (int i = 0; i < 10; i++)
      {
          cout << i << endl;
@@ -99,7 +99,7 @@
 
     */
 
- //zad. 6.
+ /*zad. 6.
  
      int fahr, celsius; //zmienne typu int 
      int start, limit, krok; //zmienne typu int 
@@ -116,7 +116,39 @@
      for (fahr = 0.0; fahr <= limit; fahr = fahr + krok) //kod 02_16
      {
          float celsius = (5.0 / 9.0) * (fahr - 32.0);
-         printf("%3.0f %6.1f \n", fahr, celsius);
+         cout << celsius;
      }
+     */
+
+/* zad.7.
+    
+float liczba;
+for (int i = 0; i < 10; i++) {
+    cout << "Podaj liczbe rzeczywista: ";
+    cin >> liczba;
+
+
+    if (liczba > 0) {
+        cout << "Liczba " << liczba << " jest dodatnia" << endl;
+    }
+    
+}
+*/
+
+/* zad.8.
+    int i;
+     for (i = 0; i <= 100 ; i++) {
+         if (i % 2 == 0) {
+             cout << i << endl;
+         }
+
+     }
+     */
+
+//zad.9.
+    
+
+
+
  }
 
